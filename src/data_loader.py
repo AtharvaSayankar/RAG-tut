@@ -7,7 +7,8 @@ from langchain_community.document_loaders import JSONLoader
 
 def load_all_documents(data_dir: str) -> List[Any]:
     """
-    Load all supported files from the data directory and convert to LangChain document structure.
+    Load all supported files from the data directory and convert to LangChain document structure 
+    using the appropriate loaders.
     Supported: PDF, TXT, CSV, Excel, Word, JSON
     """
     # Use project root data folder
