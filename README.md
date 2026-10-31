@@ -1,6 +1,6 @@
 # RAG Tutorial
 
-This project demonstrates a simple **Retrieval-Augmented Generation (RAG)**
+This project demonstrates a simple, basic **Retrieval-Augmented Generation (RAG)**
 pipeline.
 
 1. Load documents with loaders such as `PyPDFLoader`.
